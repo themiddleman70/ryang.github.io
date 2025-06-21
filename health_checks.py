@@ -54,5 +54,6 @@ def main():
 		sys.exit(1)
 	print("Everything okay.")
 	sys.exit(0)
+	input()
 
 main()

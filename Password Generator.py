@@ -1,5 +1,6 @@
 import random
 
+
 def shuffle(string):
     tempList = list(string)
     random.shuffle(tempList)
@@ -19,3 +20,4 @@ password = uppercaseLetter1 + uppercaseLetter2 + uppercaseLetter3 + lowercaseLet
 password = shuffle(password) + number + symbol
 
 print("Your password is " + password)
+input()
